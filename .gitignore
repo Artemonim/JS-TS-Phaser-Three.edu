@@ -39,6 +39,8 @@ coverage/
 # Временные файлы
 *.tmp
 *.temp
+temporary/*
+!temporary/.gitkeep
 
 # Файлы TypeScript
 *.tsbuildinfo

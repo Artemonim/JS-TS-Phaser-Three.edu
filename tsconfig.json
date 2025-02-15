@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",         // Или более современный стандарт, например "esnext"
+        "module": "esnext",         // Или "commonjs" в зависимости от вашего проекта
+        "moduleResolution": "node",
+        "strict": true,             // Рекомендуется для строгого контроля типов
+        "esModuleInterop": true,    // Разрешить импорт модулей CommonJS в ES модули
+        "skipLibCheck": true,       // Пропустить проверку объявлений типов
+        "forceConsistentCasingInFileNames": true,
+        "outDir": "dist",       // Папка для скомпилированных файлов (опционально)
+        "allowJs": true,        // Разрешить компиляцию JavaScript файлов
+        "checkJs": true,        // Включить проверку JavaScript файлов
+        "sourceMap": true       //Source map поможет быстрее найти ошибки в собранном коде на браузере или Node.js,
+                                // связав его с исходным кодом на TypeScript.
+    
+    },
+    "include": ["src/**/*", "temporary/**/*"],   // Пути к вашим TypeScript файлам (настройте под свою структуру)
+    "exclude": ["node_modules"]
+}
