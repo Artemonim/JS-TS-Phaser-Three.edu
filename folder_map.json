@@ -1,0 +1,30 @@
+{
+  "Name": "TypeScript",
+  "ContentExcluded": false,
+  "Subfolders": [
+    {
+      "Name": ".vscode",
+      "ContentExcluded": true,
+      "Subfolders": []
+    },
+    {
+      "Name": "node_modules",
+      "ContentExcluded": true,
+      "Subfolders": []
+    },
+    {
+      "Name": "src",
+      "ContentExcluded": false,
+      "Subfolders": {
+        "Name": "JSCourse",
+        "ContentExcluded": false,
+        "Subfolders": null
+      }
+    },
+    {
+      "Name": "temporary",
+      "ContentExcluded": true,
+      "Subfolders": []
+    }
+  ]
+}
