@@ -1,7 +1,7 @@
 // alert("Site started!")
-console.log("Site started!");
+console.log("Site started!\n");
 
-const kek = Number.parseInt(" 10 или 20", 10);
-console.log(kek);
+//const kek = Number.parseInt(" 10 или 20", 10);
+//console.log(kek);
 
-console.log(+(5 * 5.5).toFixed(2));
+//console.log(+(5 * 5.5).toFixed(2));
