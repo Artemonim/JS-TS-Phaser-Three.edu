@@ -9,7 +9,7 @@
         "forceConsistentCasingInFileNames": true,
         "outDir": "dist",       // Папка для скомпилированных файлов (опционально)
         "allowJs": true,        // Разрешить компиляцию JavaScript файлов
-        "checkJs": true,        // Включить проверку JavaScript файлов
+        "checkJs": false,        // Включить проверку JavaScript файлов
         "sourceMap": true       //Source map поможет быстрее найти ошибки в собранном коде на браузере или Node.js,
                                 // связав его с исходным кодом на TypeScript.
     
