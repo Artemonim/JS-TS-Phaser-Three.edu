@@ -41,7 +41,7 @@ coverage/
 *.temp
 temporary/*
 !temporary/.gitkeep
+demo/scripts.json
 
 # Файлы TypeScript
 *.tsbuildinfo
-demo/scripts.json
