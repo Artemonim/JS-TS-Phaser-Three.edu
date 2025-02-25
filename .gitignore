@@ -44,3 +44,4 @@ temporary/*
 
 # Файлы TypeScript
 *.tsbuildinfo
+demo/scripts.json
